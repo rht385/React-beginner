@@ -10,12 +10,18 @@ import NamenList from './component/nameList';
 import ParentComponent from './component/parentComponent';
 import UserGreeting from './component/usergretting';
 import Welcome from './component/welcome'
+import StyleSheet from './component/stylesheet';
+import Form from './component/form';
+import LifecycleA from './component/lifcycleA';
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <NamenList/>
+                <LifecycleA/>
+                {/* <Form/> */}
+                {/* <StyleSheet primary={true}/> */}
+                {/* <NamenList/> */}
                 {/* <UserGreeting/> */}
                 {/* <ParentComponent/> */}
                 {/* <EventBind/> */}

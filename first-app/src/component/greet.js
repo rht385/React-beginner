@@ -14,7 +14,6 @@ const Greet = props => {
       <h1>
         Hello {name} is student of {college}
       </h1>
-      
     </div>
   );
 };
